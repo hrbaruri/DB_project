@@ -36,7 +36,6 @@
 | `make`           | brand of the car         | `VARCHAR` | `NOT NULL`    |
 | `model`          | model of the car         | `VARCHAR` | `NOT NULL`    |
 | `year`           | year the car was created | `INTEGER` | `NOT NULL`    |
-| `amount_paid`    | amount on the bill       | `INTEGER` | `NOT NULL`    |
 
 
 - Table `manufacturers`:
@@ -46,9 +45,10 @@
 | `manufacturer_id` | identifier                  | `INTEGER` | `PRIMARY KEY` |
 | `name`            | name of the manufactuer     | `VARCHAR` | `NOT NULL`    |
 | `phone_number`    | manufacturer's phone number | `VARCHAR` | `NOT NULL`    |
-| `website`         | manufacturer's website      | `VARCHAR` | `NOT NULL`    |
 | `country`         | country of origin           | `VARCHAR` | `NOT NULL`    |
-| `email`           | manufacturer's email        | `VARCHAR` | `NOT NULL`    |
+| `website`         | manufacturer's website      | `VARCHAR` | `NOT NULL`    |
+
+
 
 
 - Table `salesmen`:
@@ -102,7 +102,6 @@ CREATE TABLE cars (
    make VARCHAR NOT NULL,
    model VARCHAR NOT NULL,
    year INTEGER NOT NULL,
-   amount_paid INTEGER NOT NULL
 );
 ```
 
@@ -112,9 +111,8 @@ CREATE TABLE manufacturers (
    manufacturer_id INTEGER PRIMARY KEY,
    name VARCHAR NOT NULL,
    phone_number VARCHAR NOT NULL,
-   website VARCHAR NOT NULL,
    country VARCHAR NOT NULL,
-   email VARCHAR NOT NULL
+   website VARCHAR NOT NULL
 );
 ```
 
