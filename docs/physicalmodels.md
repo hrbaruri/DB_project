@@ -122,7 +122,7 @@ CREATE TABLE SALESMEN(
     salesman_id INTEGER PRIMARY KEY,
     first_name VARCHAR NOT NULL,
     last_name VARCHAR NOT NULL
-)
+);
 ```
 
 - Table `services`:
@@ -131,5 +131,5 @@ CREATE TABLE services(
     service_id INTEGER PRIMARY KEY;
     service_date DATE NOT NULL,
     bill_id INTEGER REFERENCES bill(bill_id)
-)
+);
 ```
