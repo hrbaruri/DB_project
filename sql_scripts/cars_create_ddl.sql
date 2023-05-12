@@ -1,7 +1,7 @@
 CREATE TABLE customers (
    customer_id SERIAL PRIMARY KEY,
    first_name VARCHAR NOT NULL,
-   phone_number INTEGER NOT NULL,
+   phone_number VARCHAR NOT NULL,
    email VARCHAR NOT NULL
 );
 
