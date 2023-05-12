@@ -52,7 +52,7 @@ INSERT INTO cars (manufacturer_id, make, model, year)
 VALUES
     (11, 'Tesla', 'Model S', 2012);
 
--- 10.
+-- 10. Update the phone number of customer 10
 UPDATE customers 
 SET phone_number = '9034724376' 
 WHERE customer_id = 10;
