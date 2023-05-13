@@ -28,12 +28,16 @@ FROM cars c
 INNER JOIN bill b ON b.car_id = c.car_id;
 
 -- 6c-(3). PARTITION BY + ORDER BY
---  Order the average prices of car makes
-SELECT make, 
-AVG(b.amount_paid) OVER(PARTITION BY make) AS average_make
-FROM cars
-INNER JOIN bill b ON b.car_id = cars.car_id
-ORDER BY average_make ASC;
+--  find the most expensive car of each make
+SELECT make, model, car_price
+FROM (
+    SELECT c.make, c.model, b.amount_paid AS car_price,
+           ROW_NUMBER() OVER (PARTITION BY c.make ORDER BY b.amount_paid DESC) AS row_num
+    FROM cars c
+    INNER JOIN bill b ON b.car_id = c.car_id
+) subquery
+WHERE row_num = 1
+order by car_price desc;
 
 
 -- 6d. d. <func> - all 3 types of functions - aggregating, ranking, offsets
