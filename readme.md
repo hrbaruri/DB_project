@@ -85,11 +85,11 @@ Task about views
 ### Task 12 Analysis
 <i> <b>P.S.</b>: These observation were made after inserting additional data from [bill_extra_inserts.sql](https://github.com/hrbaruri/DB_project/blob/branch-1/analysis/bill_extra_inserts.sql). Since otherwise there is too little data.</i> <br/>
 Using python, the following data about the most expensive cars and the contribution of salesmen have been made:<br/>
-- Top 10 most expensive cars:
+- Top 10 most expensive cars (result from [analysis-1.py](https://github.com/hrbaruri/DB_project/blob/branch-1/analysis/analysis-1.py)):
 ![image](analysis/mostExpensiveCars.png)
 <br/>
 
-- Contribution of each salesman to total revenue: 
+- Contribution of each salesman to total revenue (result from [analysis-2.py](https://github.com/hrbaruri/DB_project/blob/branch-1/analysis/analysis-2.py)): 
 ![image](analysis/salesman_contribution.png)
 
 
