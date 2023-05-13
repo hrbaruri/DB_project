@@ -198,3 +198,5 @@ try:
     print("query 6d passed")
 except AssertionError:
     raise AssertionError("query 6d failed")
+
+conn.close()
