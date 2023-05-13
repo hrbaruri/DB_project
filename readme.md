@@ -7,6 +7,9 @@ This is a database about a car dealership that sells and services cars. It store
 <br/>
 <br/>
 
+![image](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/logicalmodel.png)
+## [physical models](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/physicalmodels.md) 
+
 ### Table `customers`:
 stores info on customers. Each customer has an ID, first and last names, phone number and email.
 
