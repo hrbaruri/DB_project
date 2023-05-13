@@ -7,7 +7,7 @@ This is a database about a car dealership that sells and services cars. It store
 <br/>
 <br/>
 
-![image](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/logicalmodel.png)
+![image](docs/logicalmodel.png)
 ## [physical models](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/physicalmodels.md) 
 
 ### Table `customers`:
