@@ -1,0 +1,11 @@
+"car_id","make","model","amount_paid","car_rank"
+19,"Hyundai","Elantra",115000,1
+17,"Audi","A4",105000,2
+15,"Nissan","Altima",95000,3
+13,"Chevrolet","Camaro",85000,4
+11,"Volkswagen","Golf",77000,5
+9,"Mercedes-Benz","E-Class",65000,6
+7,"Honda","Civic",55000,7
+5,"Ford","Mustang",45000,8
+3,"BMW","X5",35000,9
+1,"Toyota","Camry",25000,10
