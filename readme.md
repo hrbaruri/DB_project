@@ -12,39 +12,8 @@ This is a database about a car dealership that sells and services cars. It store
 ![image](docs/erd.png)
 ### Logical
 ![image](docs/Logical_model.png)
-## [physical models](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/physicalmodels.md) 
+## [Physical models](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/physicalmodels.md) 
 
-### Table `customers`:
-stores info on customers. Each customer has an ID, first and last names, phone number and email.
-
-<br/>
-<br/>
-
-### Table `bill`:
-Stores information on bills paid by customer. It contains the bill id, the customer id of the related customer, the salesman id of the salesman in charge of the transcation, the amount paid, the car sold and the date of the transaction.
-
-<br/>
-<br/>
-
-### Table `cars`:
-Each car in this table has a car ID, a make, a model, manufacturer, and year in which it was made.
-
-<br/>
-<br/>
-
-### Table `manufacturer`:
-Each manufacturer has an ID, a name, phone number , country of origin and a website.
-<br/>
-<br/>
-
-### Table `salesmen`:
-This table only stores the salesman ID, and their first and last names.
-<br/>
-<br/>
-
-
-### Table `service`:
-The service Table stores information about the service ID, the bill_id of the bill that the customer paid for the service, and the date.
 ******
 ## Tasks
 <br/>
