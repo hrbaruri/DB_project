@@ -8,7 +8,7 @@ This is a database about a car dealership that sells and services cars. It store
 <br/>
 
 ## Database models:
-### conceptual 
+### Conceptual 
 ![image](docs/erd.png)
 ### Logical
 ![image](docs/Logical_model.png)
