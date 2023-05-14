@@ -7,6 +7,9 @@ This is a database about a car dealership that sells and services cars. It store
 <br/>
 <br/>
 
+## Conceptual model of the database
+![image](docs/erd.png)
+## ERD
 ![image](docs/Logical_model.png)
 ## [physical models](https://github.com/hrbaruri/DB_project/blob/branch-1/docs/physicalmodels.md) 
 
