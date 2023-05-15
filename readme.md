@@ -21,7 +21,7 @@ This is a database about a car dealership that sells and services cars. It store
 #### Task3 
 DDL commands
 - Making the [database.](https://github.com/hrbaruri/DB_project/blob/branch-1/sql_scripts/create_DB_ddl.sql) 
-- DDL for [creating tables.](https://github.com/hrbaruri/DB_project/blob/branch-1/sql_scripts/task3_DB_create_ddl.sql)
+- DDL Commands for [creating tables.](https://github.com/hrbaruri/DB_project/blob/branch-1/sql_scripts/task3_DB_create_ddl.sql)
 
 
 #### Task 4
